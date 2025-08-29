@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammaar Baig Mirza - Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Fixed Navigation Header -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Ammaar Baig Mirza</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Impact Statements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-hamburger" id="nav-hamburger">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="photo.jpg" alt="Professional Headshot" class="headshot">
+                </div>
+                <div class="hero-text">
+                    <h1 class="hero-name">Ammaar Baig Mirza</h1>
+                    <h2 class="hero-title">Data Scientist</h2>
+                    <p class="hero-tagline">Crafting innovative solutions with passion and precision</p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn--primary">View My Work</a>
+                        <button class="btn btn--outline" onclick="downloadResume()">Download Resume</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-bio">I am a results-driven data science professional who thrives on solving complex problems with innovative, data-backed solutions. I focus on transforming raw information into strategies that create measurable business impact and lasting value. Committed to continuous learning, I stay ahead of industry trends to deliver cutting-edge insights and practical implementations.</p>
+                    <div class="about-highlights">
+                        <h3>Key Achievements</h3>
+                        <ul class="highlights-list">
+                            <li>Built and deployed a customer churn prediction model that achieved high accuracy, enabling proactive retention strategies.</li>
+                            <li>Developed a forest fire detection system using CNNs, trained and tested across multiple datasets to improve early-warning capabilities.</li>
+                            <li>Applied transfer learning (VGG16 & InceptionV3) to fire detection, significantly improving classification performance over baseline CNNs.</li>
+                            <li>Continuously advancing expertise in machine learning, generative AI, and business-focused analytics.</li>
+                        </ul>
+                    </div>
+                    <div class="about-mission">
+                        <h3>Professional Mission</h3>
+                        <p>To leverage my expertise in strategic planning and team leadership to drive meaningful impact and create value for organizations while fostering growth and innovation in every project I undertake.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-content">
+                <div class="technical-skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Machine Learning</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">SQL and Database Management</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Data Visualization</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Statistics</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Generative AI</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="soft-skills">
+                    <h3>Core Competencies</h3>
+                    <div class="soft-skills-grid">
+                        <div class="soft-skill-tag">Analytics</div>
+                        <div class="soft-skill-tag">Communication</div>
+                        <div class="soft-skill-tag">Problem Solving</div>
+                        <div class="soft-skill-tag">Adaptability</div>
+                        <div class="soft-skill-tag">Critical Thinking</div>
+                        <div class="soft-skill-tag">Continuous Learning</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="job-title">Data Science Intern</h3>
+                        <h4 class="company-name">Slash Mark IT</h4>
+                        <span class="job-duration">2024-2025</span>
+                        <ul class="job-responsibilities">
+                            <li>Worked remotely with a team of interns and mentors on end-to-end data science projects using the provided source code as a foundation.</li>
+                            <li>Contributed to data cleaning, preprocessing, and feature engineering, ensuring datasets were ready for modeling.</li>
+                            <li>Assisted in model evaluation and performance analysis, applying metrics to compare outcomes across different approaches.</li>
+                            <li>Took initiative in completing assigned tasks ahead of schedule, helping the team maintain steady progress.</li>
+                            <li>Adapted to multiple roles within the team, supporting collaboration and problem-solving to ensure project deadlines were met.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="education-section">
+                <h3 class="education-title">Education</h3>
+                <div class="education-grid">
+                    <div class="education-item">
+                        <h4>Bachelor of Technology in Computer Science and Engineering</h4>
+                        <p class="institution">Parul University</p>
+                        <p class="graduation-year">2021-2025 • GPA Score: 6.69</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio-section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="portfolio-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/matt-palmer-kbTp7dBzHyY-unsplash.jpg" alt="Forest Fire Detection">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Forest-Fire-Detection using CNN</h3>
+                        <p class="project-description">Developed a deep learning model to detect early signs of forest fires from image data for disaster prevention.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Deep Learning</span>
+                            <span class="tech-tag">Computer Vision</span>
+                            <span class="tech-tag">TensorFlow/Keras</span>
+                        </div>
+                        <button class="btn btn--outline project-btn">View Project</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/jay-chan-12qFmpvcwU0-unsplash.jpg" alt="Customer Churn Prediction">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Customer Churn Prediction </h3>
+                        <p class="project-description">Built a predictive model to identify at-risk customers, enabling proactive retention strategies.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">Classification Model</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                        <button class="btn btn--outline project-btn">View Project</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/360_F_512567268_L1mHLeyNkJRoMUWIl7D0y5gBWZ9ZDd8J.jpg" alt="Gender and Age Prediction">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Gender & Age Prediction</h3>
+                        <p class="project-description">Built a deep learning model to predict a person’s gender and age group from facial images with high accuracy.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Deep Learning</span>
+                            <span class="tech-tag">Face Recognition</span>
+                            <span class="tech-tag">OpenCV</span>
+                        </div>
+                        <button class="btn btn--outline project-btn">View Project</button>
+                    </div>
+                </div>
+                 <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/marcel-knupfer-37wuETxVwTQ-unsplash.jpg" alt="Weather Data Analysis">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Weather Data Analysis</h3>
+                        <p class="project-description">Analyzed historical weather patterns to uncover trends and generate actionable insights.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Data Analysis</span>
+                            <span class="tech-tag">Time Series</span>
+                            <span class="tech-tag">Pandas/Matplotlib</span>
+                        </div>
+                        <button class="btn btn--outline project-btn">View Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonials-section">
+        <div class="container">
+            <h2 class="section-title">What I'm Looking For</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Driven by curiosity and a passion for problem-solving, I specialize in transforming raw data into actionable insights that fuel smarter business decisions."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4 class="author-name"></h4>
+                        <p class="author-role"></p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"I aim to bridge data science and business strategy—turning models into measurable impact that organizations can trust."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4 class="author-name"></h4>
+                        <p class="author-role"></p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Aspiring Data Scientist with a focus on predictive analytics and AI, eager to contribute to high-impact projects in consulting and business intelligence."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4 class="author-name"></h4>
+                        <p class="author-role"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in new opportunities and collaborations. Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>Email:</strong>
+                            <a href="mailto:your.email@example.com">ammaarmirza937@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>LinkedIn:</strong>
+                            <a href="https://www.linkedin.com/in/ammaar-baig-mirza-9829bb297/" target="_blank">linkedin.com/in/ammaarmirza</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Location:</strong>
+                            <span>Silvassa, Dadra & Nagar Haveli</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Ammaar Mirza. All rights reserved.</p>
+                </div>
+                <div class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="m18 15-6-6-6 6"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
